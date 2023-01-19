@@ -1,0 +1,36 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+#front-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./assets/imgs/landing-pagev2.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position:top;
+    height: 1000px; /* You must set a specified height */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#title-merin {
+    color: white;
+    font-size: 10em;
+}
+#title-tutoring {
+    color: white;
+    font-size: 7em;
+}
+
+#front-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-btn-group {
+    margin-top: 20px;
+}
+.title-btn-group button {
+    margin: 10px;
+}
